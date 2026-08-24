@@ -1,0 +1,9 @@
+﻿# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# Data folders
+data/
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
