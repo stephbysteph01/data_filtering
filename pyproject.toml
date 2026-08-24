@@ -1,4 +1,4 @@
-﻿[build-system]
+[build-system]
 requires = ["setuptools>=42", "wheel"]
 build-backend = "setuptools.build_meta"
 
@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 name = "czrm-analysis"
 version = "0.1.0"
 description = "Analysis of CzRM reports for Roma Capitale"
-authors = [ { name = "Your Name" } ]
+authors = [{ name = "Your Name" }]
 dependencies = [
     "pandas",
     "numpy",

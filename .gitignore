@@ -1,9 +1,23 @@
 ﻿# Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
+*.egg-info/
 
-# Data folders
-data/
+# Virtual environments
+venv/
+.venv/
+.pytest_cache/
+
+# Data folders and outputs
+# Do not track raw data CSVs or processed outputs (charts, reports)
+# If you want to include specific files, remove them from this ignore list or add exceptions.
+
+# Raw CSV files (incoming data)
+data/*.csv
+data/raw/
+
+# Processed outputs (charts and reports)
+data/processed/
 
 # Jupyter notebooks checkpoints
 .ipynb_checkpoints/
